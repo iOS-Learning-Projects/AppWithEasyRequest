@@ -1,0 +1,10 @@
+framework module EasyRequest {
+  umbrella header "EasyRequest.h"
+
+  export *
+  module * { export * }
+}
+
+module EasyRequest.Swift {
+    header "EasyRequest-Swift.h"
+}
